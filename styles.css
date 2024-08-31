@@ -1,0 +1,101 @@
+body{
+    background-color: rgba(193, 237, 244, 0.346);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: linear-gradient(120deg,rgb(189, 96, 96),aqua);
+    text-align:center;
+    padding: 20px 0;
+}
+header nav a{
+color: rgb(152, 219, 17) ;
+margin:0 20px;
+font-weight: 600;
+}
+main h1{
+    text-align: center;
+}
+#bio{
+    color:rgb(32, 68, 90);
+}
+.goals{
+    color:rgb(24, 52, 54);
+}
+main{
+margin:30px auto;
+padding:30px;
+background-color:burlywood;
+width: 1100px;
+}
+footer{
+    background-color:  rgb(189, 96, 96);
+  text-align: center;  
+  padding:15px 0
+}
+footer a{
+    color: black;
+    font-weight: 600;
+}
+footer a:hover{
+    color:teal
+}
+header nav a:hover{
+    color:black;
+}
+form{
+    margin: 0% auto;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+form label{
+   display: block; 
+   font-weight: 600;
+}
+form input, form select{
+    width: 100%;
+padding: 5px;
+border-radius: 6px;
+}
+form input[type="submit"]{
+    background-color: rgb(199, 133, 75);
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+    margin: 30px 0;
+    border-radius: 12px;
+}
+table th,table td{
+    padding: 15px;
+    border: none;
+    text-align: left;
+}
+table th{
+    background-color: white;
+}
+table tr:nth-child(even){
+    background-color: blanchedalmond;
+}
+#container{
+    width: 100%;
+    position: relative;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+#container video{
+    width: 100%;
+    display: block;
+    height:auto;
+}
+audio{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
